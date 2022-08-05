@@ -25,6 +25,7 @@ public class DataDriverByDataProvider {
 		//driver.findElement(By.xpath(pass));
 		
 	}
+	//This is changes from github
 	@DataProvider(name = "userData")
 	public String [][] dataProvider(){
 		String [][] array= {{"user1","password1"},{"user2","password2"}};
